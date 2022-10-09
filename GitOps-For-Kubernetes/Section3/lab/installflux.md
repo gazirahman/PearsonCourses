@@ -17,7 +17,7 @@ flux bootstrap github \
   --repository=fleet-gitops \
   --branch=main \
   --namespace=fluxname \
-  --path=./clusters/minikube \
+  --path=./clusters/kubernetes-on-docker \
   --personal
   ```
 
@@ -32,11 +32,11 @@ You're going to need to perform your flux commands from the `flux-fleet` reposit
 ## Add the repo/source to Flux
 ```
 flux create source git nginxdeployment \
-  --url=https://github.com/adminturneddevops/PearsonCourses \
+  --url=https://github.com/gazirahman/PearsonCourses \
   --branch=main \
   --interval=30s \
   --namespace=fluxname \
-  --export > ./clusters/minikube/nginxdeployment-source.yaml
+  --export > ./clusters/kubernetes-on-docker/nginxdeployment-source.yaml
 ```
 
 ```
@@ -53,7 +53,7 @@ flux create kustomization nginxdeployment \
   --prune=true \
   --namespace=fluxname \
   --interval=5m \
-  --export > ./clusters/minikube/nginxdeployment-kustomization.yaml
+  --export > ./clusters/kubernetes-on-docker/nginxdeployment-kustomization.yaml
   ```
 
   ```

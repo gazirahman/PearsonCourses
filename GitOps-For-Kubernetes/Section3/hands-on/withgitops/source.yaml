@@ -7,4 +7,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/adminturneddevops/PearsonCourses
+  url: https://github.com/gazirahman/PearsonCourses

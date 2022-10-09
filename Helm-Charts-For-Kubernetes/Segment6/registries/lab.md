@@ -34,9 +34,9 @@ And check that Enforce HTTPS is ticked, so the HTTPS will be used when charts ar
 
 In such setup you can use your default branch to store your charts code, and gh-pages branch as charts repository, e.g.: https://USERNAME.github.io/REPONAME.
 
-4. Go to the URL and you can see the `index.yaml` to confirm it's working. For example, mine would be `https://adminturneddevops.github.io/helmrepoexample/charts/index.yaml`
+4. Go to the URL and you can see the `index.yaml` to confirm it's working. For example, mine would be `https://gazirahman.github.io/helmrepoexample/charts/index.yaml`
 
-5. Copy the URL on the *Pages* page as you'll need it for the next lab. For example, mine is `https://adminturneddevops.github.io/helmrepoexample/` and I want to add `/charts` to the end of it, so it ends up being `https://adminturneddevops.github.io/helmrepoexample/charts/`
+5. Copy the URL on the *Pages* page as you'll need it for the next lab. For example, mine is `https://gazirahman.github.io/helmrepoexample/` and I want to add `/charts` to the end of it, so it ends up being `https://gazirahman.github.io/helmrepoexample/charts/`
 
 ## Artifact Hub
 
@@ -52,7 +52,7 @@ In such setup you can use your default branch to store your charts code, and gh-
 - The name of your Helm Chart
 - The GitHub path to the Helm Chart
 
-For the GitHub URL, it's going to be the same URL from GitHub pages, except you'll add `/charts/` at the end. So for example, mine is `https://adminturneddevops.github.io/helmrepoexample/charts/`
+For the GitHub URL, it's going to be the same URL from GitHub pages, except you'll add `/charts/` at the end. So for example, mine is `https://gazirahman.github.io/helmrepoexample/charts/`
 
 5. Click the Add button
 

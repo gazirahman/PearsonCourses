@@ -36,6 +36,6 @@ If you're using Minikube, or another cluster, and you're trying to register the 
 ## App Deployment
 Deploy an app
 
-`argocd app create nginxdeployment --repo https://github.com/AdminTurnedDevOps/kubernetes-examples.git --path imagePullPolicy --dest-server https://kubernetes.default.svc --dest-namespace default`
+`argocd app create nginxdeployment --repo https://github.com/gazirahman/kubernetes-examples.git --path imagePullPolicy --dest-server https://kubernetes.default.svc --dest-namespace default`
 
 You should now see the app running in the Argo UI

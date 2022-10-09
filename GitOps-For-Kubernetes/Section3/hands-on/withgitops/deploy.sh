@@ -4,4 +4,4 @@ flux create kustomization nginxdeployment \
   --path="./kustomize" \
   --prune=true \
   --interval=5m \
-  --export > ./clusters/minikube/nginxdeployment-kustomization.yaml
+  --export > ./clusters/kubernetes-on-docker/nginxdeployment-kustomization.yaml

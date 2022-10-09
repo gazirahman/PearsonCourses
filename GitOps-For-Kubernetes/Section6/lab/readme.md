@@ -24,7 +24,7 @@ argocd login 127.0.0.1:argocd_port_here
 
 ## Deploy The App
 
-`argocd app create nginxdeployment --repo https://github.com/AdminTurnedDevOps/PearsonCourses.git --path GitOps-For-Kubernetes/Section6/lab/nginx --dest-server https://kubernetes.default.svc --dest-namespace default`
+`argocd app create nginxdeployment --repo https://github.com/gazirahman/PearsonCourses.git --path GitOps-For-Kubernetes/Section6/lab/nginx --dest-server https://kubernetes.default.svc --dest-namespace default`
 
 ## ArgoCD Portal
 

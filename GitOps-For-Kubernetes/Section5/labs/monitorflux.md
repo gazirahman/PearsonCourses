@@ -17,7 +17,7 @@ flux bootstrap github \
   --repository=fleet-gitops \
   --branch=main \
   --namespace=fluxname \
-  --path=./clusters/minikube \
+  --path=./clusters/kubernetes-on-docker \
   --personal
   ```
 
